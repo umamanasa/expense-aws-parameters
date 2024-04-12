@@ -6,4 +6,8 @@ parameters = {
 
   # Passwords
   "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+
+  ## Elastic Search
+  "elasticsearch.username"  = {type = "String", value = "elastic"}
+  "elasticsearch.password"  = { type = "SecureString", value = "yLouE7Is_TsnzBDNLVmn" }
 }
