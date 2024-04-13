@@ -9,5 +9,5 @@ parameters = {
 
   ## Elastic Search
   "elasticsearch.username"  = {type = "String", value = "elastic"}
-  "elasticsearch.password"  = { type = "SecureString", value = "yLouE7Is_TsnzBDNLVmn" }
+  "elasticsearch.password"  = { type = "SecureString", value = "*07wjshWTsWjp1v7VGIB" }
 }
