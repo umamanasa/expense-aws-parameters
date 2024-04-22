@@ -10,4 +10,13 @@ parameters = {
   ## Elastic Search
   "elasticsearch.username"  = {type = "String", value = "elastic"}
   "elasticsearch.password"  = { type = "SecureString", value = "*07wjshWTsWjp1v7VGIB" }
+
+  ## Sonarqube
+#  "sonar.username"  = {type = "String", value = "admin"}
+#  "sonar.password"  = { type = "SecureString", value = "admin123" }
+
+  ## Nexus
+  "nexus.username"  = {type = "String", value = "admin"}
+  "nexus.password"  = { type = "SecureString", value = "admin123" }
+
 }
