@@ -16,12 +16,14 @@ parameters = {
 #  "sonar.password"  = { type = "SecureString", value = "admin123" }
 
   ## Nexus
-  "nexus.username"  = {type = "String", value = "admin"}
-  "nexus.password"  = { type = "SecureString", value = "admin123" }
+  "nexus.username"      = {type = "String", value = "admin"}
+  "nexus.password"      = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username"  = {type = "String", value = "admin"}
+  "nexus.dev.password"  = { type = "SecureString", value = "admin123" }
 
   ## APP VERSION
-  "backend.dev.appVersion"    = { type = "String", value = "1.0.1" }
-  "frontend.dev.appVersion"   = { type = "String", value = "1.0.1" }
+  "backend.dev.appVersion"    = { type = "String", value = "1.0.2" }
+  "frontend.dev.appVersion"   = { type = "String", value = "1.0.2" }
 
 
 }
