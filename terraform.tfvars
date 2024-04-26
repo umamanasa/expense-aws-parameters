@@ -22,8 +22,8 @@ parameters = {
   "nexus.dev.password"  = { type = "SecureString", value = "admin123" }
 
   ## APP VERSION
-  "backend.dev.appVersion"    = { type = "String", value = "1.0.4" }
-  "frontend.dev.appVersion"   = { type = "String", value = "1.0.4" }
+  "backend.dev.appVersion"    = { type = "String", value = "1.0.0" }
+  "frontend.dev.appVersion"   = { type = "String", value = "1.0.0" }
 
 
 }
